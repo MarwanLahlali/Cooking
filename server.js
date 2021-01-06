@@ -43,7 +43,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 //connectio MongoDB
-mongoose.connect('mongodb+srv://Marwan:marwan@cluster0.idyyk.mongodb.net/cooking?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('MongoDB URI', { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.set('useUnifiedTopology', true);
 mongoose.set('useFindAndModify', false);
 
